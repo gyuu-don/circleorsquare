@@ -1,5 +1,5 @@
 // const firebaseConfig = {
-//   apiKey: "AIzaSyCnXDc93ue6ArfLM9fgyYlYMqz6l1Xe_vk",
+//   apiKey: "",
 //   authDomain: "drawai-e9ec7.firebaseapp.com",
 //   databaseURL: "https://drawai-e9ec7-default-rtdb.firebaseio.com",
 //   projectId: "drawai-e9ec7",
