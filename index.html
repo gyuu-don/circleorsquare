@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <button id="enable-training-btn">Enable Training Mode</button>
+  <button id="clear-canvas-btn">Clear Canvas (does not upload to db)</button>
+  <button id="predict-btn">Predict Current Drawing</button>
+  <button id="train-btn" hidden="true">Train Model Using Current DB (MIGHT TAKE FOREVER)</button>
+  <button id="start-data-upload-btn" hidden="true">Start Uploading Training Data</button>
+  <button id="stop-data-upload-btn" hidden="true">Stop Uploading Training Data</button>
+  
+  <canvas id="canvas" width="500" height="500"></canvas>
+
+  <script src="//unpkg.com/brain.js"></script>
+  <script src="canvas.js" type="module"></script>
+  <script src="network.js" type="module"></script>
+</body>
+
+</html>
